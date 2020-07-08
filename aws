@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-08T13:31:12.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="kU-k1kL7rwFvrqs0Wb_S" version="13.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-08T13:33:24.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="54hnyvjcT_elv5SvAMQd" version="13.4.0" type="github">
   <diagram id="gCIb8fFS4qNNETyQB5lB" name="Page-1">
     <mxGraphModel dx="2037" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,7 +223,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BlDZvYgN3f67i95qsiV2-71" value="Users" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" vertex="1" parent="BlDZvYgN3f67i95qsiV2-2">
-          <mxGeometry x="130" y="231" width="60" height="60" as="geometry" />
+          <mxGeometry x="40" y="231" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BlDZvYgN3f67i95qsiV2-83" value="Web API" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" vertex="1" parent="BlDZvYgN3f67i95qsiV2-2">
+          <mxGeometry x="150" y="220" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BlDZvYgN3f67i95qsiV2-85" value="Mobile API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="BlDZvYgN3f67i95qsiV2-2" source="BlDZvYgN3f67i95qsiV2-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlDZvYgN3f67i95qsiV2-84" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;" vertex="1" parent="BlDZvYgN3f67i95qsiV2-2">
+          <mxGeometry x="90" y="320" width="35" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
