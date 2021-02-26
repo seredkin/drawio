@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T10:26:01.823Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" version="14.4.3" etag="xBI6WOA7-jYNvUGRhZHC" type="github"><diagram id="yWP1AEPnhU0AuIyq6BjT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-26T10:44:38.972Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="zop5IXWFkGm3U_HYMwUL" version="14.4.3" type="github">
+  <diagram id="yWP1AEPnhU0AuIyq6BjT" name="Page-1">
+    <mxGraphModel dx="1960" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HoOh9IgLStfahWguxr7V-25" value="Product API&lt;br&gt;Ednpoints" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="505" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-24" value="Product API&lt;br&gt;Ednpoints" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="495" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-19" value="Middleware / Services" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-16" value="Rest Controllers" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-3" target="HoOh9IgLStfahWguxr7V-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-3" value="Product API Cosumers" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="405" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-4" target="HoOh9IgLStfahWguxr7V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-4" value="Billing API consumers" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-5" target="HoOh9IgLStfahWguxr7V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-5" value="Product API&lt;br&gt;Gateway" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="405" y="290" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;dashed=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-7" target="HoOh9IgLStfahWguxr7V-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-27" value="&lt;span style=&quot;font-size: 12px&quot;&gt;App-specific stats&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=19;" vertex="1" connectable="0" parent="HoOh9IgLStfahWguxr7V-26">
+          <mxGeometry x="0.4698" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-7" value="Product API&lt;br&gt;Ednpoints" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="485" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-12" value="Stats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-9" target="HoOh9IgLStfahWguxr7V-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-20" value="Valid Requests" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-9" target="HoOh9IgLStfahWguxr7V-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-9" value="Request&lt;br&gt;Validation" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="405" y="485" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-11" value="Billing DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-13" target="HoOh9IgLStfahWguxr7V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-13" value="Billing API" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-21" value="Billing queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoOh9IgLStfahWguxr7V-17" target="HoOh9IgLStfahWguxr7V-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-17" value="Billing Svc" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="485" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HoOh9IgLStfahWguxr7V-23" value="Product and billing components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="310" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
